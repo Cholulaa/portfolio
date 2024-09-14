@@ -1,35 +1,68 @@
-### Description
+# Cleanfolio
 
-A simple portfolio template for Computer Science and Cybersecurity professionals built with React. 
+Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
 
-![react portfoiio](src/assets/images/page.gif)
+## Preview
+
+[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+
+[Live Demo](https://rjshkhr.github.io/cleanfolio)
+
+## Instructions
 
 ### Setup
 
-**Install the git repo**
+```shell
+git clone https://github.com/rjshkhr/cleanfolio
+cd cleanfolio
+```
 
-<pre>git clone https://github.com/Duerme/cybersecurity-portfolio-webpage.git</pre>
+If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
 
-**Install yarn**
+```shell
+nvm install
+nvm use
+```
 
-Install yarn to test and build the website. You can use the link [here](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable).
- 
-**Install required dependencies**
+Or:
 
-<pre>yarn install</pre>
+```shell
+fnm install
+fnm use
+```
 
-**Start the server**
+To install and launch the project, run these commands:
 
-<pre>yarn start</pre>
+```shell
+yarn
+yarn start
+```
 
-**Build the web-page**
+### How to Use
 
-<pre>yarn build</pre>
+- Open the `public/index.html` file and replace:
 
-### More
+`<title>John Smith</title>` with `<title>Your Name</title>`.
 
-Modify pages content in  `src/content_option.js`.
+- Open the `src/portfolio.js` file and make the necessary changes.
 
-### Thanks!
+### Deployment
 
-Like the page? Leave a ⭐! 
+- In the `package.json` file, update:
+
+`"homepage": "https://rjshkhr.github.io/cleanfolio"`
+
+to `"homepage": "https://yourusername.github.io"`.
+
+- Push the changes to your repository.
+
+- To build and deploy, run the following commands:
+
+```shell
+yarn build
+yarn deploy
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
