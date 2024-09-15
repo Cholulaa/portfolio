@@ -1,16 +1,16 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://mohamedsaidi.me/#projects',
-  title: 'JS.',
+  title: 'MS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Mohamed SAIDI',
-  role: 'Ingénieur Sécurité',
+  role: 'Ingénieur Sécurité Opérationnel',
   description:
     "Ingénieur sécurité avec 3 ans d'expérience, j'ai travaillé sur l'installation et l'administration des agents SentinelOne ainsi que sur la mise en place de simulations de ransomware pour tester la résilience des systèmes. J'ai développé des scripts d'automatisation pour renforcer la sécurité des infrastructures et participé à des projets de conformité ISO 27001. Je m'intéresse également à l'intégration de l'IA dans les environnements professionnels. Curieux et passionné, j'aime relever de nouveaux défis, que ce soit en sécurité informatique, en photographie, ou à travers mes passions sportives.",
-  resume: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://mohamedsaidi.me/CV_Mohamed_SAIDI.pdf',
+  resume: 'https://mohamedsaidi.me/CV_Mohamed_SAIDI.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/sa%C3%AFdi-mohamed/',
     github: 'https://github.com/Cholulaa',
