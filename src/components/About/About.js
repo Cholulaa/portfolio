@@ -10,7 +10,7 @@ const About = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Salut, moi c'est <span className='about__name'>{name}.</span>
         </h1>
       )}
 
@@ -21,7 +21,7 @@ const About = () => {
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
-              Resume
+              CV
             </span>
           </a>
         )}

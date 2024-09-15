@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://mohamedsaidi.me/#projects',
   title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Mohamed SAIDI',
+  role: 'Ingénieur Sécurité',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "Ingénieur sécurité avec 3 ans d'expérience, j'ai travaillé sur l'installation et l'administration des agents SentinelOne ainsi que sur la mise en place de simulations de ransomware pour tester la résilience des systèmes. J'ai développé des scripts d'automatisation pour renforcer la sécurité des infrastructures et participé à des projets de conformité ISO 27001. Je m'intéresse également à l'intégration de l'IA dans les environnements professionnels. Curieux et passionné, j'aime relever de nouveaux défis, que ce soit en sécurité informatique, en photographie, ou à travers mes passions sportives.",
+  resume: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://mohamedsaidi.me/CV_Mohamed_SAIDI.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/sa%C3%AFdi-mohamed/',
+    github: 'https://github.com/Cholulaa',
   },
 }
 
@@ -21,51 +21,54 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'SpyWare Python',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Développement d'un spyware en Python pour une carte Teensy, capable d'enregistrer les touches et d'installer un client qui envoie toutes les entrées utilisateur à un serveur C2 (Command & Control).",
+    stack: ['Python', 'Teensy', 'C2 server'],
+    sourceCode: 'https://github.com/Cholulaa/spyware',
   },
   {
-    name: 'Project 2',
+    name: 'POC PSRansom',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mise en place de PSRansom sur notre infrastructure pour simuler une attaque ransomware, afin de tester la réactivité de nos antivirus et EDR face à ce type de menace.',
+    stack: ['Powershell', 'Windows Server', 'CyberSécurité'],
+    sourceCode: 'https://github.com/JoelGMSec/PSRansom',
   },
   {
-    name: 'Project 3',
+    name: 'Ferme à Troll Rust',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Développement complet d'un système automatisé en Rust pour la création de comptes Twitter et la publication de tweets. Utilisation de ChromeDriver et de l'API Twitter pour simuler l'activité de bots, intégration de l'API de chatpgpt pour la génération autoamatique de tweet.",
+    stack: ['Rust', 'API', 'WebScrapping','IA'],
+    sourceCode: 'https://github.com/Cholulaa/Projet-rust-Troll-Farm-Mohamed-SAIDI',
+  },
+  {
+    name: 'Entainement IA Pilotage',
+    description:
+      "Conception et déploiement d'une IA destinée à automatiser la gestion des tickets sur une plateforme ITSM. L'IA analyse, qualifie, et redirige automatiquement les tickets d'incidents et de demandes vers les équipes appropriées.",
+    stack: ['Azure OpenAI Studio', 'Python', 'ITSM','IA','API'],
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'Rust',
+  'SentinelOne',
+  'Azure',
+  'AWS BedRock',
+  'ISO 27001',
+  'PowerShell',
+  'WebScrapping',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'RunDeck',
+  'ELK',
+  'Cisco',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'saidimohamed2603@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
