@@ -1,6 +1,4 @@
-Voici une version mise à jour de ton fichier `README` pour ton portfolio, prenant en compte l'utilisation de Nginx, HTML, CSS et la procédure de sécurisation de ton serveur Ubuntu :
 
-```markdown
 # Portfolio Mohamed SAIDI
 
 ## Description
@@ -130,6 +128,3 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions ou des amé
 
 ## Licence
 Ce projet est sous licence MIT.
-```
-
-Ce README inclut la procédure de sécurisation du serveur Ubuntu avec Nginx et met en avant l'utilisation de HTML et CSS dans ton portfolio.
